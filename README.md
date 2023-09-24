@@ -24,9 +24,9 @@ $${\Huge\displaystyle \Huge \ y = X\beta + \epsilon }$$
 
 The coefficients ${\mathbf{\beta}}$ are calculated using the least squares method, which involves minimizing the sum of squared errors. The optimal coefficients can be computed as:
 
-${\Huge\displaystyle  \min_{\mathbf{\beta}, b} \sum_{i=1}^{n} (y_i - (\mathbf{\beta} \cdot \mathbf{x}_i + \beta_0))^2 }$
+$${\Huge\displaystyle  \min_{\mathbf{\beta}, b} \sum_{i=1}^{n} (y_i - (\mathbf{\beta} \cdot \mathbf{x}_i + \beta_0))^2 }$$
 
-${\Huge\displaystyle \Huge \beta = (X^T X)^{-1} X^T y}$
+$${\Huge\displaystyle \Huge \beta = (X^T X)^{-1} X^T y}$$
 
 ## Where:
 ${\mathbf{X^T}}$ is the transpose of the input feature matrix.
